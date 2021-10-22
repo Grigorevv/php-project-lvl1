@@ -7,7 +7,7 @@ use function cli\prompt;
 
 function engine($getQuestionAndAnswer, $gameDescription)
 {
-    line('Welcome to the Brain EVEN!');
+    line('Welcome to the Brain Games!');
     $playerName = prompt('May I have your name?');
     line("Hello, {$playerName}!");
     line($gameDescription);

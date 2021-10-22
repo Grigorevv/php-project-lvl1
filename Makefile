@@ -13,3 +13,7 @@ lint:
 
 brain-even:
 	./bin/brain-even
+
+brain-calc:
+	./bin/brain-calc
+
