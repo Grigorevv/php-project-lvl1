@@ -1,14 +1,22 @@
 {
     "name": "hexlet/code",
-    "bin": ["bin/brain-games"],
+    "bin": [
+        "bin/brain-games",
+        "bin/brain-even"
+      ],
     "description": "PHP project 1.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         },
-        "files": [
-            "src/Cli.php"]
+        "files": 
+        ["src/Cli.php",
+        "src/Engine.php",
+        "src/Games/Even.php"
+
+        ]
+    
     },
     "authors": [
         {
