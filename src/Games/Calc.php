@@ -23,7 +23,7 @@ function calculate(int $randNum1, int $randNum2, string $sign): int
     return $result;
 }
 
-function runGameEven()
+function runGameCalc(): void
 {
     $gameDescription = 'What is the result of the expression?';
     $getCorrectAnswer = function (): array {

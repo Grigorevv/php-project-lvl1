@@ -13,7 +13,7 @@ function getProgression(int $beginProg, int $stepProgression, int $progressionLe
     return $progression;
 }
 
-function runGameEven()
+function runGameProgression(): void
 {
     $gameDescription = 'What number is missing in the progression?';
     $getCorrectAnswer = function (): array {

@@ -17,7 +17,7 @@ function isPrime(int $num): bool
     return true;
 }
 
-function runGameEven()
+function runGamePrime(): void
 {
     $gameDescription = 'Answer "yes" if the number is prime, otherwise answer "no".';
     $getCorrectAnswer = function (): array {

@@ -4,7 +4,7 @@ namespace src\Games\Gcd;
 
 use src\Engine;
 
-function getGcd(int $num1, int $num2)
+function getGcd(int $num1, int $num2): string
 {
     $maxNumb = max($num1, $num2);
     $gcd = 1;
@@ -16,7 +16,7 @@ function getGcd(int $num1, int $num2)
     return $gcd;
 }
 
-function runGameEven()
+function runGameGcd(): void
 {
     $gameDescription = 'Find the greatest common divisor of given numbers.';
     $getCorrectAnswer = function (): array {
