@@ -26,7 +26,7 @@ function calculate($randNum1, $randNum2, $sign)
 function runGameEven()
 {
     $gameDescription = 'What is the result of the expression?';
-    $getCorrectAnswer = function () {
+    $getCorrectAnswer = function (): array {
         $signs = ['+', '-', '*'];
         $randNum1 = mt_rand(0, 100);
         $randNum2 = mt_rand(0, 100);

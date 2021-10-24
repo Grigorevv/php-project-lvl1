@@ -16,7 +16,7 @@ function getProgression($beginProg, $diff, $progressionLength)
 function runGameEven()
 {
     $gameDescription = 'What number is missing in the progression?';
-    $getCorrectAnswer = function () {
+    $getCorrectAnswer = function (): array {
         $beginProgression = mt_rand(0, 100);
         $diffProgression = mt_rand(1, 10);
         $progressionLength = mt_rand(5, 10);

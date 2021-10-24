@@ -19,7 +19,7 @@ function getGcd($num1, $num2)
 function runGameEven()
 {
     $gameDescription = 'Find the greatest common divisor of given numbers.';
-    $getCorrectAnswer = function () {
+    $getCorrectAnswer = function (): array {
         $num1 = mt_rand(0, 100);
         $num2 = mt_rand(0, 100);
         $question = "{$num1} {$num2}";

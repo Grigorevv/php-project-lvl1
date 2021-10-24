@@ -20,7 +20,7 @@ function isPrime($num)
 function runGameEven()
 {
     $gameDescription = 'Answer "yes" if the number is prime, otherwise answer "no".';
-    $getCorrectAnswer = function () {
+    $getCorrectAnswer = function (): array {
         $question = mt_rand(0, 100);
         $correctAnswer = isPrime($question) ? 'yes' : 'no';
         return [ 'question' => $question, 'correctAnswer' => $correctAnswer ];
