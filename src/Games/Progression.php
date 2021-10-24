@@ -20,7 +20,7 @@ function runGameEven()
         $beginProgression = mt_rand(0, 100);
         $diffProgression = mt_rand(1, 10);
         $progressionLength = mt_rand(5, 10);
-        $progression = getProgression($beginProgression, $diffProgression, $progressionLength); 
+        $progression = getProgression($beginProgression, $diffProgression, $progressionLength);
         $hiddenNumberIndex = mt_rand(0, $progressionLength - 1);
         $correctAnswer = strval($progression[$hiddenNumberIndex]);
         $progression[$hiddenNumberIndex] = '..';
