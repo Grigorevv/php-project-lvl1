@@ -4,7 +4,7 @@ namespace src\Games\Gcd;
 
 use src\Engine;
 
-function getGcd($num1, $num2)
+function getGcd(int $num1, int $num2)
 {
     $maxNumb = max($num1, $num2);
     $gcd = 1;

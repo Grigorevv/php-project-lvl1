@@ -5,7 +5,7 @@ namespace src\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function engine($getQuestionAndAnswer, $gameDescription)
+function engine(callable $getQuestionAndAnswer, string $gameDescription): bool
 {
     line('Welcome to the Brain Games!');
     $playerName = prompt('May I have your name?');

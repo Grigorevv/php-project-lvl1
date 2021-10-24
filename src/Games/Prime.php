@@ -4,7 +4,7 @@ namespace src\Games\Prime;
 
 use src\Engine;
 
-function isPrime($num)
+function isPrime(int $num): bool
 {
     if ($num < 2) {
         return false;

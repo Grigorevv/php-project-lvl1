@@ -4,7 +4,7 @@ namespace src\Games\Calc;
 
 use src\Engine;
 
-function calculate($randNum1, $randNum2, $sign)
+function calculate(int $randNum1, int $randNum2, string $sign): int
 {
     $result = 0;
     switch ($sign) {

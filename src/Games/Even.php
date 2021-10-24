@@ -4,7 +4,7 @@ namespace src\Games\Even;
 
 use src\Engine;
 
-function isEven($num)
+function isEven(int $num): bool
 {
     return $num % 2 === 0;
 }
